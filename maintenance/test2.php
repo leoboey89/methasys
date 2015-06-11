@@ -26,4 +26,6 @@
     while($row = $spubPatientResult->fetch_assoc()) {
         echo $row['spubout_patcode'];
     }
+
+    echo "Success";
 ?>
