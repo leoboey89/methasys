@@ -1,0 +1,301 @@
+#container {
+	width: 210mm;
+	font-family: Arial Narrow, Arial, sans-serif;
+}
+
+#rtg-methadone {
+	padding-top: 6mm;
+	text-align: right;
+	margin-right: 26mm;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#rtg-methadone label{
+	font-size: 10px;
+}
+
+#spub-content {
+	text-align: right;
+	padding-top: 4mm;
+}
+
+#spub-methadone {
+	position: relative;
+	left: 162mm;
+	width: 42mm;
+	height: 7mm;
+	border: 1px solid;
+	padding-top: 1mm;
+	text-align: left;
+	font-size: 12px;
+}
+
+#spub-methadone label{
+	margin-left: 3mm;
+	margin-top: 2mm;
+}
+
+#format {
+	padding-left: 54mm;
+	padding-top: 2mm;
+	padding-bottom: 3mm;
+}
+
+#spub-table-container {
+	text-align: left;
+}
+
+#spub-table {
+	width: 165mm;
+	border: 1px solid;
+	margin-left: 15mm;
+	border-collapse: collapse;
+}
+
+td{
+	padding-left: 2mm;
+	margin: 0px;
+	width: 50%;
+}
+
+#table-left {
+	border-right: 1px solid;
+}
+
+#state{
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 64mm;
+	font-size: 14px;
+}
+
+#centre{
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 47.5mm;
+	font-size: 14px;
+}
+
+#address {
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 63mm;
+	font-size: 14px;
+}
+
+#address2 {
+	position: relative;
+	left: 15.5mm;
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 63mm;
+	font-size: 14px;
+}
+
+#tel{
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 62.5mm;
+	font-size: 14px;
+}
+
+#fax{
+	border-bottom: 1px dotted;
+	display: inline-block;
+	width: 59.5mm;
+	font-size: 14px;
+}
+
+#patient-info {
+	padding-left: 17mm;
+}
+
+#patient-name {
+	padding-left: 17mm;
+	margin: 0px;
+}
+
+#patient-id {
+	padding-left: 17mm;
+}
+
+#patient-info {
+	padding-left: 17mm;
+}
+
+#patient-tel {
+	padding-left: 17mm;
+}
+
+#prescription-info {
+	padding-left: 17mm;
+}
+
+#prescription-no {
+	padding-left: 17mm;
+}
+
+#prescription-date {
+	padding-left: 17mm;
+}
+
+#prescription-dos {
+	padding-left: 17mm;
+}
+
+#supply-info {
+	padding-left: 17mm;
+}
+
+#signature {
+	padding-top: 3mm;
+	padding-left: 17mm;
+}
+
+#pic {
+	padding-left: 17mm;
+}
+
+#date {
+	padding-left: 17mm;
+}
+
+#name {
+	height: 6mm;
+}
+
+#name-label {
+	display: inline-block;
+	width: 130mm;
+	height: 5mm;
+	border: 1px solid;
+	margin: 0px auto;
+}
+
+#id-label {
+	display: inline-block;
+	width: 50mm;
+	height: 5mm;
+	border: 1px solid;
+	margin: 0px auto;
+}
+
+#tel-label {
+	display: inline-block;
+	width: 47mm;
+	height: 5mm;
+	border: 1px solid;
+	margin: 0px auto;
+}
+
+#male {
+	display: inline-block;
+	width: 10mm;
+	height: 5mm;
+	border: 1px solid;
+	margin: 0px auto;
+}
+
+#female {
+	display: inline-block;
+	width: 10mm;
+	height: 5mm;
+	border: 1px solid;
+	margin: 0px auto;
+}
+
+#prescription-no-label {
+	display: inline-block;
+	width: 40mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#prescription-date-label {
+	display: inline-block;
+	width: 40mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#prescription-dos-label {
+	display: inline-block;
+	width: 35mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#signature-label {
+	display: inline-block;
+	width: 40mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#pic-label {
+	display: inline-block;
+	width: 40mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#date-label {
+	display: inline-block;
+	width: 40mm;
+	height: 6mm;
+	border-bottom: 1px dotted;
+}
+
+#note {
+	padding-top: 4mm;
+	padding-left: 17mm;
+	font-size: 13px;
+}
+
+#note p{
+	margin: 0px;
+	padding-left: 0px;
+}
+
+#footer {
+	padding-top: 4mm;
+	text-align: right;
+	margin-right: 42mm;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+}
+
+#page-no {
+	font-size: 14px;
+}
+
+#supply-info-container {
+	text-align: left;
+}
+
+#supply-info-table {
+	width: 165mm;
+	border: 1px solid;
+	margin-left: 15mm;
+	border-collapse: collapse;
+}
+
+#supply-info-table td {
+	border: 1px solid;
+	text-align: center;
+}
+
+#type {
+	width: 30%;
+	padding-bottom: 5mm;
+}
+
+#date-cont {
+	width: 35%;
+	padding-bottom: 5mm;
+}
+
+#period {
+	width: 35%;
+	padding-bottom: 5mm;
+}

@@ -1,0 +1,112 @@
+body {
+	background-color: #E0F0FF;
+	margin: 0px;
+	padding: 0px;
+	color: #0052A3;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#header-title {
+	width:1200px;
+	margin:0px auto;
+	padding:10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 3px 3px 10px #8E9294;
+}
+
+#header-menu {
+	/*background-color: #95B9CB;*/
+	background: linear-gradient(#95B9CB , #BFD5E0);
+	width: 100%;
+	margin:0px;
+	font-weight: bold;
+	height: 40px;
+}
+
+#header-menu ul {
+	width:1200px;
+	/*background-color: #95B9CB;*/
+	margin:0px auto;
+	padding: 5px;
+	list-style-type: none;
+    overflow: hidden;
+    text-shadow: 3px 3px 10px #8E9294;
+}
+
+#header-menu a:link, #header-menu a:visited {
+	color: #0052A3;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	text-decoration: none;
+}
+
+#header-menu a:hover, #header-menu a:active {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#content {
+	width:1200px;
+	min-height: 550px;
+	margin:10px auto;
+	padding:10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 12px;
+	box-shadow: 0px 0px 30px 2px #888888;
+	text-align: center;
+}
+
+#A4-size {
+	width:600px;
+	min-height: 550px;
+	margin:10px auto;
+	padding:10px;
+	font-size: 12px;
+	box-shadow: 0px 0px 30px 2px #888888;
+	text-align: center;
+}
+
+#footer-divider {
+	background-color: #95B9CB;
+	height: 5px;
+	margin:0px auto;
+    overflow: hidden;
+}
+
+#footer-title {
+	width:1200px;
+	margin:0px auto;
+	font-size: 10px;
+	padding:10px;
+}
+
+#spub-table {
+	width: 80%;
+	margin:0px auto;
+	border-collapse: collapse;
+	border-radius: 1px;
+	padding: 10px;
+	text-align: left;
+}
+
+#spub-table th, #spub-table td {
+	font-size: 12px;
+	margin: auto;
+	padding: 0px 7px 0px 7px;
+	text-align: left;
+	color: #000000;
+}
+
+#patient-info {
+	text-align: left;
+}
+
+
+
+

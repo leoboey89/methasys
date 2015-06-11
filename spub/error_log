@@ -1,0 +1,9 @@
+[05-Feb-2015 17:02:43 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unknown column 'patient_m1min' in 'where clause'. Please check submitted query SELECT patient_code, patient_name FROM patient_mstr WHERE patient_active = "Y" AND patient_m1min = "Y" GROUP BY patient_id ORDER BY patient_id' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:116
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/spub/m1mIn.php(36): MySQLConnector->getResultSet('patient_mstr', Array, Array, Array, Array)
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 116
+[05-Feb-2015 17:05:09 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home1/leoboey/public_html/methasys/spub/m1mOut.php on line 71
+[05-Feb-2015 17:06:03 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home1/leoboey/public_html/methasys/spub/m1mOut.php on line 71
+[05-Feb-2015 17:07:19 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home1/leoboey/public_html/methasys/spub/m1mOut.php on line 135
+[05-Feb-2015 17:47:46 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home1/leoboey/public_html/methasys/spub/spubOut.php on line 89

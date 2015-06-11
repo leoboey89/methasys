@@ -1,0 +1,144 @@
+body {
+	background-color: #E0F0FF;
+	margin: 0px;
+	padding: 0px;
+	color: #0052A3;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#header-title {
+	width:1200px;
+	margin:0px auto;
+	padding:10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 3px 3px 10px #8E9294;
+}
+
+#header-menu {
+	/*background-color: #95B9CB;*/
+	background: linear-gradient(#95B9CB , #BFD5E0);
+	width: 100%;
+	margin:0px;
+	font-weight: bold;
+	height: 40px;
+}
+
+#header-menu ul {
+	width:1200px;
+	/*background-color: #95B9CB;*/
+	margin:0px auto;
+	padding: 5px;
+	list-style-type: none;
+    overflow: hidden;
+    text-shadow: 3px 3px 10px #8E9294;
+}
+
+#header-menu a:link, #header-menu a:visited {
+	color: #0052A3;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	text-decoration: none;
+}
+
+#header-menu a:hover, #header-menu a:active {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#content {
+	width:800px;
+	min-height: 400px;
+	margin:10px auto;
+	padding:10px;
+	color: #0052A3;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 20px;
+	box-shadow: 0px 0px 30px 2px #888888;
+}
+
+#patient-info {
+	width: 100%;
+	font-size: 16px;
+}
+
+#patient-info th {
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	width: 30%;
+	text-align: left;
+	border-bottom-style: inset;
+}
+
+#patient-info td {
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: left;
+	border-bottom-style: inset;
+}
+
+#patient-info input {
+	border-style: hidden;
+	width: 100%;
+	font-size: 20px;
+	color: #0052A3;
+}
+
+#footer-divider {
+	background-color: #95B9CB;
+	height: 5px;
+	margin:0px auto;
+    overflow: hidden;
+}
+
+#footer-title {
+	width:1200px;
+	margin:0px auto;
+	font-size: 10px;
+	padding:10px;
+}
+
+#absentee-table {
+	width: 100%;
+	border-collapse: collapse;
+	padding: 20px;
+}
+
+#absentee-log {
+	text-align: center;
+	margin: 10px;
+}
+
+#absentee-log th, #absentee-log td {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px 7px 0px 7px;
+	text-align: left;
+	border: 1px solid #6B8592;
+	color: #2B353A;
+}
+
+#absentee-table th {
+	background-color: #A0C0D0;
+	font-size: 16px;
+	color: #0052A3;
+}
+
+#absentee-table tr.absentee-total td {
+	background-color: #BBD2DD;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0052A3;
+}
+
+#absentee-table tr.even td {
+    background-color: #D9E6ED;
+}

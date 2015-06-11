@@ -1,0 +1,148 @@
+[08-Feb-2015 00:49:39 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(57): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Feb-2015 00:49:41 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(57): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Feb-2015 00:50:12 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(57): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Feb-2015 00:50:18 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(57): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Feb-2015 00:50:36 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(57): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:11:43 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.temp_mslist_hist' doesn't exist. Please check submitted query delete from temp_mslist_hist' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/masterList.php(106): MySQLConnector->getResultBySQL('delete from tem...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:13:25 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.PATIENT_MSTR' doesn't exist. Please check submitted query SELECT * FROM PATIENT_MSTR WHERE PATIENT_CODE IN 
+        (SELECT PATIENT_CODE FROM PATIENT_MSTR LEFT JOIN METHASCAN_HIST ON METHASCAN_PATCODE = PATIENT_CODE AND 
+        METHASCAN_DATE >= "2015-02-12" AND METHASCAN_DATE < "2015-02-13" WHERE PATIENT_ACTIVE = "Y"
+        AND PATIENT_STATUS <> "DEATH" AND PATIENT_STATUS <> "TRANSFER OUT" AND PATIENT_STATUS <> "M1M IN" 
+        AND METHASCAN_PATCODE IS NULL) ORDER BY PATIENT_CODE' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/absenteeList.php(38): MySQLConnector->getResultBySQL('SELECT * FROM P...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:14:17 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.PATIENT_MSTR' doesn't exist. Please check submitted query SELECT * FROM PATIENT_MSTR WHERE PATIENT_CODE IN 
+        (SELECT PATIENT_CODE FROM PATIENT_MSTR LEFT JOIN METHASCAN_HIST ON METHASCAN_PATCODE = PATIENT_CODE AND 
+        METHASCAN_DATE >= "2015-02-12" AND METHASCAN_DATE < "2015-02-13" WHERE PATIENT_ACTIVE = "Y"
+        AND PATIENT_STATUS <> "DEATH" AND PATIENT_STATUS <> "TRANSFER OUT" AND PATIENT_STATUS <> "M1M IN" 
+        AND METHASCAN_PATCODE IS NULL) ORDER BY PATIENT_CODE' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/absenteeList.php(38): MySQLConnector->getResultBySQL('SELECT * FROM P...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:14:22 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.PATIENT_MSTR' doesn't exist. Please check submitted query SELECT * FROM PATIENT_MSTR WHERE PATIENT_CODE IN 
+        (SELECT PATIENT_CODE FROM PATIENT_MSTR LEFT JOIN METHASCAN_HIST ON METHASCAN_PATCODE = PATIENT_CODE AND 
+        METHASCAN_DATE >= "2015-02-12" AND METHASCAN_DATE < "2015-02-13" WHERE PATIENT_ACTIVE = "Y"
+        AND PATIENT_STATUS <> "DEATH" AND PATIENT_STATUS <> "TRANSFER OUT" AND PATIENT_STATUS <> "M1M IN" 
+        AND METHASCAN_PATCODE IS NULL) ORDER BY PATIENT_CODE' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/absenteeList.php(38): MySQLConnector->getResultBySQL('SELECT * FROM P...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:14:24 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.PATIENT_MSTR' doesn't exist. Please check submitted query SELECT * FROM PATIENT_MSTR WHERE PATIENT_CODE IN 
+        (SELECT PATIENT_CODE FROM PATIENT_MSTR LEFT JOIN METHASCAN_HIST ON METHASCAN_PATCODE = PATIENT_CODE AND 
+        METHASCAN_DATE >= "2015-02-12" AND METHASCAN_DATE < "2015-02-13" WHERE PATIENT_ACTIVE = "Y"
+        AND PATIENT_STATUS <> "DEATH" AND PATIENT_STATUS <> "TRANSFER OUT" AND PATIENT_STATUS <> "M1M IN" 
+        AND METHASCAN_PATCODE IS NULL) ORDER BY PATIENT_CODE' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/absenteeList.php(38): MySQLConnector->getResultBySQL('SELECT * FROM P...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:14:28 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.PATIENT_MSTR' doesn't exist. Please check submitted query SELECT * FROM PATIENT_MSTR WHERE PATIENT_CODE IN 
+        (SELECT PATIENT_CODE FROM PATIENT_MSTR LEFT JOIN METHASCAN_HIST ON METHASCAN_PATCODE = PATIENT_CODE AND 
+        METHASCAN_DATE >= "2015-02-12" AND METHASCAN_DATE < "2015-02-13" WHERE PATIENT_ACTIVE = "Y"
+        AND PATIENT_STATUS <> "DEATH" AND PATIENT_STATUS <> "TRANSFER OUT" AND PATIENT_STATUS <> "M1M IN" 
+        AND METHASCAN_PATCODE IS NULL) ORDER BY PATIENT_CODE' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/absenteeList.php(38): MySQLConnector->getResultBySQL('SELECT * FROM P...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Feb-2015 07:39:32 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid date' in /home1/leoboey/public_html/methasys/classes/Date.php:47
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/classes/Date.php(84): Date->setDate('2015', '02', '112015')
+#1 /home1/leoboey/public_html/methasys/report/absenteeList.php(24): Date->setFromMySQL('2015-02-112015-...')
+#2 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/Date.php on line 47
+[12-Feb-2015 07:39:53 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid date' in /home1/leoboey/public_html/methasys/classes/Date.php:47
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/classes/Date.php(84): Date->setDate('2015', '02', '112015')
+#1 /home1/leoboey/public_html/methasys/report/absenteeList.php(24): Date->setFromMySQL('2015-02-112015-...')
+#2 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/Date.php on line 47
+[12-Feb-2015 07:57:47 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined method Date::getDayNumber() in /home1/leoboey/public_html/methasys/report/masterList.php on line 29
+[08-Apr-2015 03:15:36 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Apr-2015 03:20:31 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Apr-2015 03:20:40 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Apr-2015 03:21:04 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Apr-2015 23:08:24 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[08-Apr-2015 23:23:38 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Apr-2015 01:58:05 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Apr-2015 01:59:24 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[12-Apr-2015 01:59:39 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[16-May-2015 21:49:54 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[17-May-2015 01:49:32 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124
+[17-May-2015 01:49:44 America/Chicago] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Table 'leoboey_db.TEMP_STOCK_HIST' doesn't exist. Please check submitted query DELETE FROM TEMP_STOCK_HIST' in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php:124
+Stack trace:
+#0 /home1/leoboey/public_html/methasys/report/stockReport.php(52): MySQLConnector->getResultBySQL('DELETE FROM TEM...')
+#1 {main}
+  thrown in /home1/leoboey/public_html/methasys/classes/MySQLConnector.php on line 124

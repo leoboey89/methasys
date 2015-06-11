@@ -1,0 +1,152 @@
+#container {
+	width: 297mm;
+	font-family: Arial Narrow, Arial, sans-serif;
+}
+
+#lampiran {
+	padding-top: 14mm;
+	text-align: right;
+	margin-right: 25mm;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#title {
+	text-align: center;
+	padding-top: 6mm;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#m1m-table-container {
+	text-align: left;
+}
+
+#m1m-table {
+	border: 1px solid;
+	margin-left: 15mm;
+	margin-top: 8mm;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+td{
+	margin: 0px;
+	border: 1px solid;
+}
+
+#no-label {
+	width: 14mm;
+	height:16mm;
+}
+
+#serial-label {
+	width: 36mm;
+}
+
+#name-label {
+	width: 52mm;
+}
+
+#distribute-label {
+	width: 35mm;
+}
+
+#return-label {
+	width: 33mm;
+}
+
+#distribute-date-label {
+	width: 17mm;
+	height: 5mm;
+	font-size: 11px;
+}
+
+#distribute-signature-label {
+	width: 18mm;
+	height: 5mm;
+	font-size: 11px;
+}
+
+#return-date-label {
+	width: 16mm;
+	height: 5mm;
+	font-size: 11px;
+}
+
+#return-signature-label {
+	width: 18mm;
+	height: 5mm;
+	font-size: 11px;
+}
+
+#totaldose-label {
+	width: 25mm;
+}
+
+#doseleft-label {
+	width: 28mm;
+}
+
+#record-label {
+	width: 25mm;
+}
+
+#no {
+	width: 14mm;
+	height: 11mm;
+}
+
+#serial {
+	width: 36mm;
+	height: 11mm;
+}
+
+#name {
+	width: 52mm;
+	height: 11mm;
+}
+
+#distribute-date {
+	width: 17mm;
+	height: 11mm;
+}
+
+#distribute-signature {
+	width: 18mm;
+	height: 11mm;
+}
+
+#return-date {
+	width: 16mm;
+	height: 11mm;
+}
+
+#return-signature {
+	width: 18mm;
+	height: 11mm;
+}
+
+#totaldose {
+	width: 25mm;
+	height: 11mm;
+}
+
+#doseleft {
+	width: 28mm;
+	height: 11mm;
+}
+
+#record {
+	width: 25mm;
+	height: 11mm;
+}
+
+#page {
+	margin-top: 20mm;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
